@@ -1,4 +1,4 @@
-package appdesign1.controller;
+package chapter02.appdesign1.controller;
 import java.io.IOException;
 
 import javax.servlet.RequestDispatcher;
@@ -8,9 +8,10 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import appdesign1.action.SaveProductAction;
-import appdesign1.form.ProductForm;
-import appdesign1.model.Product;
+import chapter02.appdesign1.action.SaveProductAction;
+import chapter02.appdesign1.form.ProductForm;
+import chapter02.appdesign1.model.Product;
+
 import java.math.BigDecimal;
 
 @WebServlet(name = "ControllerServlet", urlPatterns = {

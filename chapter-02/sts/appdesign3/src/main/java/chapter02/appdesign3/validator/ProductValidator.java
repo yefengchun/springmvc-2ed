@@ -1,8 +1,9 @@
-package appdesign3.validator;
+package chapter02.appdesign3.validator;
 
 import java.util.ArrayList;
 import java.util.List;
-import appdesign3.form.ProductForm;
+
+import chapter02.appdesign3.form.ProductForm;
 
 public class ProductValidator {
 

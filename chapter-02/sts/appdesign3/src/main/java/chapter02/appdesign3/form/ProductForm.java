@@ -1,4 +1,4 @@
-package appdesign3.form;
+package chapter02.appdesign3.form;
 
 public class ProductForm {
     private String name;

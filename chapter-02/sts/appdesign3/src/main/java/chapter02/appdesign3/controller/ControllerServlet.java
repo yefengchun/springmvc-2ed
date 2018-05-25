@@ -1,4 +1,4 @@
-package appdesign3.controller;
+package chapter02.appdesign3.controller;
 
 import java.io.IOException;
 import java.util.List;
@@ -8,10 +8,12 @@ import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-import appdesign3.action.SaveProductAction;
-import appdesign3.form.ProductForm;
-import appdesign3.model.Product;
-import appdesign3.validator.ProductValidator;
+
+import chapter02.appdesign3.action.SaveProductAction;
+import chapter02.appdesign3.form.ProductForm;
+import chapter02.appdesign3.model.Product;
+import chapter02.appdesign3.validator.ProductValidator;
+
 import java.math.BigDecimal;
 
 @WebServlet(name = "ControllerServlet", urlPatterns = { "/input-product", "/save-product" })

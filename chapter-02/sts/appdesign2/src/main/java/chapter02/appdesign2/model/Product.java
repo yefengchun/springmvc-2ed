@@ -1,4 +1,4 @@
-package appdesign2.model;
+package chapter02.appdesign2.model;
 
 import java.io.Serializable;
 import java.math.BigDecimal;

@@ -1,4 +1,4 @@
-package appdesign2.filter;
+package chapter02.appdesign2.filter;
 
 import java.io.IOException;
 import javax.servlet.Filter;
@@ -11,9 +11,10 @@ import javax.servlet.ServletResponse;
 import javax.servlet.annotation.WebFilter;
 import javax.servlet.http.HttpServletRequest;
 
-import appdesign2.action.SaveProductAction;
-import appdesign2.form.ProductForm;
-import appdesign2.model.Product;
+import chapter02.appdesign2.form.ProductForm;
+import chapter02.appdesign2.model.Product;
+import chapter02.appdesign2.action.SaveProductAction;
+
 import java.math.BigDecimal;
 
 @WebFilter(filterName = "DispatcherFilter", urlPatterns = { "/*" })

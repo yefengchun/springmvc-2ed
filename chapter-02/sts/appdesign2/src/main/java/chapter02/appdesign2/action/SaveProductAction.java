@@ -1,6 +1,6 @@
-package appdesign2.action;
+package chapter02.appdesign2.action;
 
-import appdesign2.model.Product;
+import chapter02.appdesign2.model.Product;
 
 public class SaveProductAction {
 	public void save(Product product) {
